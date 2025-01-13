@@ -1,7 +1,6 @@
 /*
-  Monitor crypto prices and send an alert via an encrypted private message
-  over Nostr to alert when the price moves outside the window set in the
-  config file.
+  Monitor known instances of ipfs-bch-wallet-consumer. Interrogate them, generate
+  a report from the data, and publish the report to Nostr.
 */
 
 // Global npm libraries

@@ -9,8 +9,9 @@ const config = {
   relay: 'wss://nostr-relay.psfoundation.info',
 
   // Nostr keys for this app
-  nostrPrivKey: 'f11de5600c2ee52de9cd77d40c200e191e6449c8bf166400afb2259366abf0bd',
-  nostrPubKey: '2b28fd5ccaa5218afbf7556c8b539a8bbd15fa2bf07c29c51686f07442c3e8c5',
+  nostrPrivKey: '6c97a368ef3d3aca31fbdecb15b890559cba112efffc93bbc6e60ed5aa848075',
+  nostrPubKey: '6ba7d5584114b32b97b5e6710076cc6f3d441598366da11d802ea56cf62776a0',
+  // npub1dwna2kzpzjejh9a4uecsqakvdu75g9vcxek6z8vq96jkea38w6sqvusvpu
 
   // Targets for AVAX-Stablecoin pair
   avaxHighTarget: 40.64,
