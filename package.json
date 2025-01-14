@@ -1,12 +1,12 @@
 {
-  "name": "@chris.troutner/crypto-price-monitor",
+  "name": "@chris.troutner/consumer-monitor",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "npm run lint",
     "lint": "standard --env mocha --fix",
-    "start": "node price-monitor.js"
+    "start": "node consumer-monitor.js"
   },
   "author": "",
   "type": "module",
