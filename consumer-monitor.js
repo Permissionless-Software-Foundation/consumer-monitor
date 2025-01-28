@@ -20,7 +20,7 @@ const consumerUrls = [
 // Check on the consumer instances
 setInterval(function () {
   start()
-}, 60000 * 1) // 1 hour
+}, 60000 * 60) // 1 hour
 
 async function start () {
   try {
