@@ -12,14 +12,15 @@ import Consumer from './lib/consumer.js'
 import Nostr from './lib/nostr.js'
 
 const consumerUrls = [
-  // 'https://free-bch.fullstack.cash',
-  'https://dev-consumer.psfoundation.info'
+  'https://free-bch.fullstack.cash',
+  'https://dev-consumer.psfoundation.info',
+  'https://cashstack.tokentiger.com'
 ]
 
 // Check on the consumer instances
 setInterval(function () {
   start()
-}, 60000 * 60) // 1 hour
+}, 60000 * 1) // 1 hour
 
 async function start () {
   try {
